@@ -10,14 +10,14 @@
     <body>
         <div class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper grey">
+                <div class="nav-wrapper grey lighten-1">
                     <a class="brand-logo center" href="/">
                         <!-- logo here... -->
                     </a>
+                    <!--
                     <a href="#" data-activates="sidebar" class="button-collapse">
                         <i class="material-icons">menu</i>
                     </a>
-                    <!--
                     <ul class="right hide-on-med-and-down">
                         <li><a href="/work">Work</a></li>
                         <li><a href="/consulting">Consulting</a></li>
@@ -35,16 +35,19 @@
             </nav>
         </div>
         <div class="container">
-            <br>
-            <br>
+            <br class="hide-on-small-only">
+            <br class="hide-on-small-only">
+            <div class="row hide-on-med-and-up">
+                <h1 class="center" style="font-weight:300">Conner Charlebois</h1>
+            </div>
             <div class="row valign-wrapper">
-              <div class="col s3 offset-s1 valign">
+              <div class="col m3 offset-m1 s10 offset-s1">
                 <p class="center">
                   <img class="center responsive-img circle z-depth-3" src="images/from-work.png"/>
                 </p>      
               </div>
-              <div class="col s7 valign">
-                  <h1 style="font-weight:300">Conner Charlebois</h1>
+              <div class="col m7 s12" style="height:100%">
+                  <h1 class="valign hide-on-small-only" style="font-weight:300">Conner Charlebois</h1>
               </div>
             </div>
           </div>
